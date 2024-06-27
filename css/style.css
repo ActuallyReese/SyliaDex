@@ -36,7 +36,7 @@ img {
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns:20% 20% 20% 20% 20%;
     background-color: #2196F3;
     padding: 10px;
 }
@@ -48,12 +48,14 @@ img {
     padding: 20px;
     font-size: 30px;
     text-align: center;
+  
+    
 }
 
 
 .type {
-    width:250px;
-    height:300px;
+    width:30%;
+    height:50%;
 }
 
 
@@ -61,10 +63,33 @@ img {
 background-color:rgb(168, 219, 116)
 }
 
+.fire {
+    background-color:rgb(248, 129, 129)
+}
+
+.water {
+    background-color:rgb(147, 172, 241)
+}
+
+.normal {
+    background-color:rgba(255, 230, 175, 0.893)
+} 
+
+.dark {
+    background-color:rgba(91, 90, 91, 0.893)
+} 
+
+.flying {
+    background-color:rgb(179, 251, 199)
+}
+
+.ground {
+    background-color:rgb(215, 170, 107)
+}
 
 .name {
     text-align: center;
-    font-size: 100px;
+    font-size: 70px;
     
 }
 
@@ -90,4 +115,24 @@ background-color:rgb(168, 219, 116)
 
 .buncti {
     background-image:url('https://raw.githubusercontent.com/Darkonius64/syliaimages/main/Buncti.png');    
+}
+
+.harepin {
+    background-image:url('https://raw.githubusercontent.com/Darkonius64/syliaimages/main/Harepin.png');    
+}
+
+.faenestrel {
+    background-image:url('https://raw.githubusercontent.com/Darkonius64/syliaimages/main/Faenestrel.png');    
+}
+
+.geckoal {
+    background-image:url('https://raw.githubusercontent.com/Darkonius64/syliaimages/main/Geckoal.png');    
+}
+
+.thermtile {
+    background-image:url('https://raw.githubusercontent.com/Darkonius64/syliaimages/main/Thermtile.png');    
+}
+
+.foundrizard {
+    background-image:url('https://raw.githubusercontent.com/Darkonius64/syliaimages/main/Foundrizard.png');    
 }
