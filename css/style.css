@@ -1,15 +1,55 @@
 
 body {
-
-    color: black;
+    color: rgb(255, 255, 255);
     text-align: center;
     font-size: 100px;
+    margin: 0px;
+}
+
+p {
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.homebg {
+    background-image: url("../image/sun.png");
+    background-color: #293a85;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.spikebg {
+    background-image: url("../image/little_spike.png");
+    background-repeat:repeat-x;
+    background-size:contain;
+    margin: 0px;
+}
+
+.bluebg {
+    background-color: #293a85;
+    display: flex;
+    text-justify: auto;
+}
+
+.transparent {
+    background-size: 100% 100%;
 }
 
 .navbar {
     padding-inline: 100px;
     font-size: 90px;
+    text-align:center;
+    margin: 0px;
+}
+
+.navbarblue {
+    padding-inline: 100px;
+    padding-top: 100px;
+    font-size: 90px;
     text-align: center;
+    
 }
 
 .fitscreen {
@@ -58,6 +98,10 @@ img {
     height:50%;
 }
 
+.trainer {
+    width:30%;
+    height:30%;
+}
 
 .grass {
 background-color:rgb(168, 219, 116)
@@ -112,6 +156,18 @@ background-color:rgb(168, 219, 116)
     background-repeat:no-repeat;
     background-size:contain;
 }
+
+.images {
+    position: relative;
+}
+
+.inner-image {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+
 
 .buncti {
     background-image:url('https://raw.githubusercontent.com/Darkonius64/syliaimages/main/Buncti.png');    
